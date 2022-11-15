@@ -12,3 +12,11 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
+  application:
+    name: servicio-cursos
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 7000 
