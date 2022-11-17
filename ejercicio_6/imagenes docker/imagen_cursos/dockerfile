@@ -1,0 +1,4 @@
+FROM openjdk:11
+ADD cursos.jar cursos.jar
+EXPOSE 7000
+ENTRYPOINT ["java", "-jar", "/cursos.jar"]

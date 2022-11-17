@@ -1,0 +1,4 @@
+FROM openjdk:11
+ADD formaciones.jar formaciones.jar
+EXPOSE 8000
+ENTRYPOINT ["java", "-jar", "/formaciones.jar"]
