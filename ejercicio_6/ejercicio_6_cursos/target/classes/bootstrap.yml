@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: servicio-cursos
+  cloud:
+    config:
+      uri: http://172.27.64.1:8888  #Localización Spring Cloud Config
+
